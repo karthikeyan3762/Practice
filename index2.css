@@ -1,0 +1,79 @@
+#bold{
+    font-weight: bold;
+}
+#normal{
+    font-weight: normal;
+}
+#italic{
+    font-style: italic;
+}
+#normal{
+    font-style: normal;
+}
+#underline{
+    text-decoration: underline;
+}
+#overline{
+    text-decoration: overline;
+}
+#linethrough{
+    text-decoration: line-through;
+}
+#textnone{
+    text-decoration: none;
+}
+#size32px{
+    font-size: 32px;
+}
+#size2em{
+    font-size: 2em;;
+}
+#size2vw{
+    font-size: 5vw;;
+}
+#fontfamily{
+    font-family: arial;
+}
+#color{
+    color: red;
+}
+#hex{
+    color: #40aa70;
+}
+#rgb{
+      color: rgb(155, 15, 0);  
+}
+#center{
+    text-align: center;
+}
+#right{
+    text-align: right;
+}
+#justify{
+    text-align: justify;
+}
+#lastright{
+    text-align: justify;
+    text-align-last: right;
+}
+#lastleft{
+    text-align: justify;
+    text-align-last: left;
+}
+#lastcenter{
+    text-align: justify;
+    text-align-last:center;
+}
+#lastjustify{
+    text-align: justify;
+    text-align-last:justify;
+}
+#textindent{
+    text-indent: 100px;
+}
+#letterspacing{
+    letter-spacing: 5px;
+}
+#Wordspacing{
+    word-spacing: 50px;
+}
