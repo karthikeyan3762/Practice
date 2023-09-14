@@ -1,0 +1,180 @@
+#lineheight{
+    line-height: 50px;
+}
+#boxshadow{
+    box-shadow: 1px 2px 2px red;
+}
+#textshadow{
+    text-shadow: 2px 5px 2px red;
+}
+#disk{
+    list-style-type: disc;
+}
+#circle{
+    list-style-type: circle;
+}
+#square{
+    list-style-type: square;
+}
+#none{
+    list-style-type: none;
+}
+#decimal{
+    list-style-type: decimal;
+}
+#uppaeralpha{
+    list-style-type: upper-alpha;
+}
+#loweralpha{
+    list-style-type: lower-alpha;
+}
+#lowerromen{
+    list-style-type: lower-roman;
+}
+#upperromen{
+    list-style-type: upper-roman;
+}
+#decimalleadingzero{
+    list-style-type: decimal-leading-zero;
+}
+.widthheight{
+    width: 250px;
+    height: 250px;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+.orange{
+    background-color: orange;
+}
+.overflow{
+    height: 150px;
+    width: 250px;;
+    background-color: aqua;
+    overflow: hidden;
+}
+.overflowscroll{
+    height: 150px;
+    width: 250px;;
+    background-color: aqua;
+    overflow: scroll;
+}
+.overflowautto{
+    height: 150px;
+    width: 250px;;
+    background-color: aqua;
+    overflow: auto;
+}
+.overflowxhidden{
+    height: 150px;
+    width: 250px;;
+    background-color: red;
+    overflow-x: scroll;
+}
+#padding{
+    border: 5px solid black;
+    background-color: gray;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+    /* padding: 25px; */
+}
+.border{
+    height: 100px;
+    width: 150px;
+    background-color: aquamarine;
+    border-top: 5px solid black;
+    border-right: 5px dashed red;
+    border-bottom: 5px dotted blue;
+    border-left: 5px double green;
+    /* border:10px outset black */
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+#margin{
+    
+    background-color: blueviolet;
+    margin-top: 15px;
+    margin-right: 25px;
+    margin-bottom: 55px;
+    margin-left: 35px;
+}
+.back{
+    background-color: brown;
+    color: black;
+}
+#toright{
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(45deg, red 50%, blue 20%);
+}
+#radial{
+    width: 150px;
+    height: 180px;
+    background: radial-gradient( elipse, red, green, blue);
+}
+.transform{
+    width: 125px;
+    height: 125px;
+    background-color: red;
+    transform: translatey(100px);
+    transform: rotatey(45deg);
+    transform: scale(2,1);
+}
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transform: rotatez(15deg);
+}
+.box1:hover{
+    transform: rotatez(45deg);
+    background-color: orange;
+}
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: orangered;
+    /* animation-name: box3animation;
+    animation-duration: 5s;
+    animation-timing-function: linear; */
+}
+
+@keyframes box3animation
+{
+    0%{
+        transform: rotateZ(0deg);
+        background-color: orangered;
+    }
+    25%{
+        transform: rotateZ(45deg);
+        background-color: rgb(209, 33, 222);
+    }
+    50%{
+        transform: rotateZ(100deg);
+        background-color: yellow;
+    }
+    100%{
+        transform: rotateZ(360deg);
+        background-color: rgb(25, 53, 177);
+    }
+}
+.box3:hover{
+    
+    animation-name: box3animation;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+}
